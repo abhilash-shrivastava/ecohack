@@ -5,10 +5,10 @@ applications:
     path: dist
     memory: 64M
     stack: cflinuxfs2
-#    services: # add any services that you are using here
-#            - eco_redis # change this to your redis service instance name
-#            - eco_views # change this to your view service instance name
-#            - eco_asset # change this to your asset service instance name
-#    env:
-#      UAA_SERVER_URL: https://a0ce13ce-4306-4773-9666-bd1ff84bc057.predix-uaa.run.aws-usw02-pr.ice.predix.io/ # change to your UAA instance url
-#      REDIS: eco_redis
+    services: # add any services that you are using here
+            - my_redis_instance # change this to your redis service instance name
+            - my_view_instance # change this to your view service instance name
+
+    env:
+      UAA_SERVER_URL: https://a0ce13ce-4306-4773-9666-bd1ff84bc057.predix-uaa.run.aws-usw02-pr.ice.predix.io/ # change to your UAA instance url
+      REDIS: redis-1
