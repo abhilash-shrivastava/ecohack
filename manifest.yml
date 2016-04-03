@@ -10,5 +10,5 @@ applications:
             - my_view_instance # change this to your view service instance name
 
     env:
-      UAA_SERVER_URL: https://a0ce13ce-4306-4773-9666-bd1ff84bc057.predix-uaa.run.aws-usw02-pr.ice.predix.io/ # change to your UAA instance url
+      UAA_SERVER_URL: https://59498ae5-0495-45b6-9cf1-02311c3563f5.predix-uaa.run.aws-usw02-pr.ice.predix.io # change to your UAA instance url
       REDIS: redis-1
