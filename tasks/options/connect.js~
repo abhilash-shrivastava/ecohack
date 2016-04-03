@@ -24,7 +24,7 @@ var config = {
   proxy: {
     '/api/view-service(.*)': {
       url: 'https://predix-views.run.aws-usw02-pr.ice.predix.io/api$1',
-      instanceId: 'my_view_instance'
+      instanceId: '1dd34308-e872-45ef-865c-9508cfd51802'
     }
   }
 };
