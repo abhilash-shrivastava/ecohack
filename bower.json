@@ -44,6 +44,7 @@
     "px": "~v1.3.0",
     "px-theme": "~v0.6.1",
     "polymer": "~1.2.3",
-    "px-card": "~v0.2.2"
+    "px-card": "~v0.2.2",
+    "px-simple-line-chart": "~1.2.5"
   }
 }
